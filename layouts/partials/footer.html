@@ -1,0 +1,12 @@
+{{ with .Params.hide_footer }}
+	<!-- No footer here! -->
+{{ else }}
+	<footer>
+		<p>Site web réalisé par {{ .Site.Params.name }} en 2025. Dernière mise à jour {{ .Site.Params.maj}} Adresse: Les Panoplies | Adélaïde Racca | Atelier Superseñor | 10, avenue de Chardonnet | 25000 Besançon
+        {{ range .Site.Menus.social }}
+            <a href="{{ .URL }}" class="navbar-item is-hidden-touch" title="{{ .Name }}">{{ .Name }}</a>
+        {{ end }}
+        </p>
+
+	</footer>
+{{ end }}

@@ -1,0 +1,10 @@
+{{ define "main" }}
+	<h1>Les projets des Panoplies</h1>
+	<ul>
+	{{ range .Pages }}
+		<li>
+			<a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "2006" }}
+		</li>
+	{{ end }}
+	</ul>
+{{ end }}

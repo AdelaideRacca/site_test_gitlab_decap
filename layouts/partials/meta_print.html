@@ -1,0 +1,15 @@
+<meta charste="utf-8">
+	<title>{{ .Page.Title }}</title>
+	{{ $style := resources.Get "sass/main.scss" | css.Sass | resources.Minify }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
+	{{ $style := resources.Get "sass/print.css" | resources.Minify }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
+	{{ $style := resources.Get "sass/interface.css" | resources.Minify }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+	<!-- Paged.js -->
+	<script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+	<!-- Reload in place -->
+	<script src="https://ateliers.esad-pyrenees.fr/pagetypetoprint/booklet/js/print/reloadInPlace.js"></script>
+	<!-- URLs trop longues -->
+	<script src="https://ateliers.esad-pyrenees.fr/pagetypetoprint/booklet/js/print/breakUrls.js"></script>

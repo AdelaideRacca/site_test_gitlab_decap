@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Création Participative, Espace Public, Affiches Engagées, Générateur Poétique, EAC on Les Panoplies</title>
+    <link>http://localhost:1313/tags/cr%C3%A9ation-participative-espace-public-affiches-engag%C3%A9es-g%C3%A9n%C3%A9rateur-po%C3%A9tique-eac/</link>
+    <description>Recent content in Création Participative, Espace Public, Affiches Engagées, Générateur Poétique, EAC on Les Panoplies</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cr%C3%A9ation-participative-espace-public-affiches-engag%C3%A9es-g%C3%A9n%C3%A9rateur-po%C3%A9tique-eac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La fabrique à affiche</title>
+      <link>http://localhost:1313/projets/faa/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/faa/</guid>
+      <description>&lt;p&gt;Au sein de l’association Superseñor, j’ai mené une résidence en milieu scolaire avec 25 classes issues de 7 établissements de l’académie de Besançon. Pour cette résidence, j’ai convié Carole Karlen-Renahy et Laura Tisserand, graphistes et plasticiennes.&lt;/p&gt;&#xA;&lt;p&gt;Au cours de cette résidence, nous avons conçu La fabrique à affiche, un projet qui prend la forme d’un laboratoire permettant aux élèves de s’initier à une écriture poétique, à la composition visuelle et à la sérigraphie pour créer une affiche porteuse d’un message engagé. Après avoir imprimé les affiches, il est proposé aux élèves de coller leur production dans l’espace public. Le dispositif que nous avons conçu permet de faciliter la création visuelle et d’amener les élèves à réfléchir à leurs engagements.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

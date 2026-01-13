@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'fr-FR'
+title = 'Les Panoplies'
+[params]
+name = 'Adélaïde Racca'
+maj = '2025-11-10'
+
+[[menu.social]]
+name = "Mastodon"
+url = "https://mastodon.design/@adelaideracca"
+
+[[menu.social]]
+name = "Instagram"
+url = "https://www.instagram.com/adelaide.racca/"

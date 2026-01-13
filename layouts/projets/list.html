@@ -1,0 +1,22 @@
+{{ define "main" }}
+	<h1>Les projets menés par Les Panoplies</h1>
+	<main>
+		<ul>
+		{{ range .Data.Pages.ByPublishDate }}
+			<hr>
+			<li class="grid">
+				<a href="{{ .Permalink }}">
+					{{ with .Resources.Get .Params.image_intro }}<img src="{{ .RelPermalink }}" alt="{{ $.Title }}" />{{ end }}
+					<h2>{{ .Title }}</h2>
+				</a> 
+				<p>{{ .Date.Format "2006" }} | {{ .Params.Resume }}</p>
+
+				<p>{{ range $idx, $tags := .Params.tags }}
+				{{- if ne $idx 0 }}, {{ end }}
+					{{ $tags }}
+				{{- end }}</p>
+			</li>
+		{{ end }}
+		</ul>
+	</main>
+{{ end }}

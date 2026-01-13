@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Générateur on Les Panoplies</title>
+    <link>http://localhost:1313/tags/g%C3%A9n%C3%A9rateur/</link>
+    <description>Recent content in Générateur on Les Panoplies</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/g%C3%A9n%C3%A9rateur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La fabrique à affiche</title>
+      <link>http://localhost:1313/projets/faa/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/faa/</guid>
+      <description>&lt;h2 id=&#34;le-point-de-départ&#34;&gt;Le point de départ&lt;/h2&gt;&#xA;&lt;p&gt;En 2024, je réponds à la proposition de Rachel Verjus, enseignante en arts-plastiques au lycée Proudhon de Besançon. Il s&amp;rsquo;agit de créer un laboratoire graphique sur la thématique de l&amp;rsquo;&lt;strong&gt;art et l&amp;rsquo;engagement&lt;/strong&gt; au programme au collège. Elle aimerait mener le projet avec ses 9 classes de 4e. Assez rapidement, je propose à Carole, ma compère de Costume-Origami et amie de l&amp;rsquo;Atelier Superseñor de mener ce projet en binôme. Nous commençons à imaginer quelques pistes d&amp;rsquo;atelier perpétuel, dans lequel les élèves pourraient aller et venir à leur guise, expérimenteraient, se transmetteraient les outils et techniques que nous leur apporterions.&#xA;Rachel nous propose d&amp;rsquo;associer&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

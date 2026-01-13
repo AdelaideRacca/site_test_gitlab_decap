@@ -1,0 +1,32 @@
+{{ define "main" }}
+	<h1>{{ .Params.Title }}</h1>
+	<p>{{ .Date.Format "2006" }}</p>
+	<p>{{ .Params.Resume }}</p>
+	<p>{{ .Params.Avec }}</p>
+	<p>{{ range $idx, $tags := .Params.tags }}
+				{{- if ne $idx 0 }}, {{ end }}
+					{{ $tags }}
+				{{- end }}</p>
+
+<!-- tags et lien 
+		{{ range $idx, $tags := .Params.tags }}
+			{{- if ne $idx 0 }}, {{ end }}
+				<a href="{{ "tags/" | relURL }}{{ $tags | urlize }}">{{ $tags }}</a>
+		{{- end }}
+		-->
+	<hr>
+
+	{{ with .Resources.Get .Params.image_intro }}<img src="{{ .RelPermalink }}" alt="{{ $.Title }}" />{{ end }}
+
+	{{ .Content }}
+	<hr>
+	{{ with .Resources.Get .Params.images }}<img src="{{ .RelPermalink }}" alt="{{ $.Title }}" />{{ end }}
+
+	{{range .Resources.Match "img/*" }}
+		<img src="{{ .RelPermalink }}"  /> 
+	{{ end }}
+
+	<p>{{ .Params.Partenaires }}</p>
+	<p>{{ .Params.Merci }}</p>
+
+{{ end }}

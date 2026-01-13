@@ -1,0 +1,63 @@
+/*body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd, pre, ul, li {
+    margin: 0;
+    padding: 0;
+    }*/
+
+body {
+  width: 960px;
+  margin: 0 0 0 50px;
+}
+
+
+
+/* ----- Navigation --------------------*/
+
+nav ul {
+  list-style: none;
+
+li {
+    display: inline-block;
+    padding: 0 1rem 0 0;
+  }
+}
+
+/* ----- Footer --------------------*/
+
+
+footer {
+  padding: 2px 2px;
+  font-size: .7em;
+  padding-top: 35px;
+  border-top: 2px solid red;
+}
+
+/* ----- Hiérarchisation texte --------------------*/
+
+
+
+
+
+
+/* ----- Liens --------------------*/
+
+
+
+
+/* ----- Liste --------------------*/
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* ----- Images --------------------*/
+
+img {
+    width: 100%;
+  }
+
+/* ----- Séparateur --------------------*/
+
+hr {
+  border-top: 2px solid red;
+}

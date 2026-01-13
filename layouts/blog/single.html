@@ -1,0 +1,10 @@
+{{ define "main" }}
+	<h1>{{ .Params.Title }}</h1>
+	<p>Lieu : {{ .Params.Lieu }}</p>
+	<p>Type de projet : {{ .Params.Sorte }}</p>
+	<p>Partenaire : {{ .Params.Client }}</p>
+	<p>Date : {{ .Date.Format "2006" }}</p>
+	<hr>
+	{{ .Content }}
+
+{{ end }}
