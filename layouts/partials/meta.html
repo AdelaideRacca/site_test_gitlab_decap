@@ -2,3 +2,4 @@
 	<title>{{ .Page.Title }}</title>
 	{{ $style := resources.Get "sass/main.scss" | css.Sass | resources.Minify }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
