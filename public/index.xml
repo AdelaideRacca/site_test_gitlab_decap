@@ -6,8 +6,15 @@
     <description>Recent content on Les Panoplies</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 15:16:00 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lol</title>
+      <link>http://localhost:1313/blog/2026-01-13-lol/</link>
+      <pubDate>Tue, 13 Jan 2026 15:16:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/2026-01-13-lol/</guid>
+      <description>&lt;p&gt;Love&lt;/p&gt;</description>
+    </item>
     <item>
       <title>La fabrique à affiche</title>
       <link>http://localhost:1313/projets/faa/</link>
