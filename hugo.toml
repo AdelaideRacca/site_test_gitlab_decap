@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://abilala-testdecap.netlify.app/'
 languageCode = 'fr-FR'
 title = 'Les Panoplies'
 [params]
