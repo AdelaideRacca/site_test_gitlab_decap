@@ -6,14 +6,14 @@
     <description>Recent content in Projets on Les Panoplies</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Thu, 15 Jan 2026 09:52:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 16:24:00 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/projets/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test 2</title>
-      <link>http://localhost:1313/projets/2026-01-15-test-2/</link>
-      <pubDate>Thu, 15 Jan 2026 09:52:00 +0100</pubDate>
-      <guid>http://localhost:1313/projets/2026-01-15-test-2/</guid>
-      <description>&lt;p&gt;Blkabla blabla&lt;/p&gt;</description>
+      <title>Mon nouveau projet 2</title>
+      <link>http://localhost:1313/projets/2026-01-16-mon-nouveau-projet-2/</link>
+      <pubDate>Fri, 16 Jan 2026 16:24:00 +0100</pubDate>
+      <guid>http://localhost:1313/projets/2026-01-16-mon-nouveau-projet-2/</guid>
+      <description>&lt;h2 id=&#34;je-teste-ici-le-projet-2&#34;&gt;Je teste ici le Projet 2&lt;/h2&gt;&#xA;&lt;p&gt;ksj&lt;/p&gt;</description>
     </item>
     <item>
       <title>La fabrique à affiche</title>

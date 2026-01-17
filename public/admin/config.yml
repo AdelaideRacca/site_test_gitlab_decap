@@ -15,22 +15,22 @@ collections: # A list of collections the CMS should be able to edit
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Publish Date', name: 'publishdate', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: "Image", name: "image", widget: "image", required: false}
+      - { label: 'Image', name: "image", widget: "image", required: false }
+      - { label: 'Ordre', name: 'ordre', widget: 'number', hint: 'Place dans le classement', default: 1, value_type: 'int', min: 1, max: 200 }
+      - { label: 'Image intro', name: 'image_intro', widget: 'image', hint: 'Image dans apercu', required: false }
+      - { label: 'Résumé', name: 'resume', widget: 'string', hint: 'Le texte dans apercu' }
+      - { label: 'Tags', name: 'tags', widget: 'select', multiple: true, options: ["Création participative", "Outils de médiation", "Graphisme", "Scénographie", "Espace public"] }
+      - { label: 'Avec', name: 'avec', widget: 'string' }
+      - { label: 'Partenaires', name: 'partenaires', widget: 'string' }
+      - { label: 'Merci', name: 'merci', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: 'eac' # Used in routes, ie.: /admin/collections/:slug/edit
-    label: 'EAC' # Used in the UI, ie.: "New Post"
-    folder: 'content/eac' # The path to the folder where the documents are stored
-    path: "{{slug}}/index" # Each document is inside a folder with the slug name.
-    create: true
-    slug: '{{slug}}'
-    editor:
-      preview: true
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: "Image", name: "image", widget: "image", required: false}
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+
+tags: ["Création participative", "Espace public", "Installation", "Générateur", "EAC"]
+avec: Avec Carole Karlen-Renahy et Laura Tisserand
+partenaires: Projet mené avec Juste Ici et le Festival Bien urbain, l'Atelier Superseñor, la Drac BFC, la Draeac BFC, le Département du Doubs et l'Éducation nationale, 
+merci: 
