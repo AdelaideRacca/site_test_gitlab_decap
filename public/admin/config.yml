@@ -15,8 +15,8 @@ collections: # A list of collections the CMS should be able to edit
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Brouillon', name: 'draft', widget: 'boolean', default: 'true', required: false }
       - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'Publish Date', name: 'publishdate', widget: 'datetime' }
       - { label: 'Image', name: "image", widget: "image", required: false }
       - { label: 'Ordre', name: 'ordre', widget: 'number', hint: 'Place dans le classement, nombre entier positif', default: 1, value_type: 'int', min: 1, max: 200 }
       - { label: 'Image intro', name: 'image_intro', widget: 'image', hint: 'Image dans apercu', required: false }
@@ -25,11 +25,4 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Avec', name: 'avec', widget: 'string', required: false }
       - { label: 'Partenaires', name: 'partenaires', widget: 'string', required: false }
       - { label: 'Merci', name: 'merci', widget: 'string', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
-
-
-
-tags: ["Création participative", "Espace public", "Installation", "Générateur", "EAC"]
-avec: Avec Carole Karlen-Renahy et Laura Tisserand
-partenaires: Projet mené avec Juste Ici et le Festival Bien urbain, l'Atelier Superseñor, la Drac BFC, la Draeac BFC, le Département du Doubs et l'Éducation nationale, 
-merci: 
+      - { label: 'Body', name: 'body', widget: 'markdown'}
