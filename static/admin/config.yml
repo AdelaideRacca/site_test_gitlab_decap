@@ -17,16 +17,15 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'Publish Date', name: 'publishdate', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Image', name: "image", widget: "image", required: false }
-      - { label: 'Ordre', name: 'ordre', widget: 'number', hint: 'Place dans le classement', default: 1, value_type: 'int', min: 1, max: 200 }
+      - { label: 'Ordre', name: 'ordre', widget: 'number', hint: 'Place dans le classement, nombre entier positif', default: 1, value_type: 'int', min: 1, max: 200 }
       - { label: 'Image intro', name: 'image_intro', widget: 'image', hint: 'Image dans apercu', required: false }
       - { label: 'Résumé', name: 'resume', widget: 'string', hint: 'Le texte dans apercu' }
-      - { label: 'Tags', name: 'tags', widget: 'select', multiple: true, options: ["Création participative", "Outils de médiation", "Graphisme", "Scénographie", "Espace public"] }
-      - { label: 'Avec', name: 'avec', widget: 'string' }
-      - { label: 'Partenaires', name: 'partenaires', widget: 'string' }
-      - { label: 'Merci', name: 'merci', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Tags', name: 'tags', widget: 'select', multiple: true, options: ["Création participative", "Outils de médiation", "Graphisme", "Scénographie", "Espace public"], required: false }
+      - { label: 'Avec', name: 'avec', widget: 'string', required: false }
+      - { label: 'Partenaires', name: 'partenaires', widget: 'string', required: false }
+      - { label: 'Merci', name: 'merci', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
 
 
 
