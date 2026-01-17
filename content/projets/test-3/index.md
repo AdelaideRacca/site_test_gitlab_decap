@@ -1,6 +1,6 @@
 ---
 title: Test 3
-draft: true
+draft: false
 date: 2026-01-17T22:12:00.000+01:00
 publishdate: 2026-01-17T22:12:00.000+01:00
 ordre: 10
